@@ -1,0 +1,12 @@
+:root {
+  color: rgba(0, 0, 0, 0.87);
+  background-color:var(--Lightgray);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+

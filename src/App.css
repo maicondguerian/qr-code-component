@@ -1,0 +1,29 @@
+#root {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color:var(--Lightgray);
+  max-width: 1440px;
+  height: 800px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+
+}
+
+@media screen and (max-width: 400px) {
+  .App {
+    height: 100%;
+
+  }
+}
